@@ -1,0 +1,9 @@
+streamlit
+geopandas==0.14.1
+folium
+streamlit-folium
+pandas
+plotly
+branca
+pyogrio
+shapely
