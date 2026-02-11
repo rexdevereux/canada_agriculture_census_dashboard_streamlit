@@ -706,7 +706,7 @@ with col_legend:
 # Additional Visualizations
 # ====================================================================
 st.markdown("---")
-st.subheader("📈 Production Analysis")
+st.subheader("Production Analysis")
 
 viz_col1, viz_col2 = st.columns(2)
 
@@ -986,12 +986,12 @@ with footer_col1:
     st.markdown("Statistics Canada Agricultural Census")
 
 with footer_col2:
-    st.markdown("**🧑‍💻 Analysis & Development**")
+    st.markdown("**Analysis & Development**")
     st.markdown("Rex Devereux")
 
 with footer_col3:
     st.markdown("**🔗 Links**")
-    st.markdown("[GitHub](https://github.com/rexdevereux) | [Portfolio](https://rexdevereux.com) | [LinkedIn](https://linkedin.com/in/rexdevereux)")
+    st.markdown("[GitHub](https://github.com/rexdevereux) | [LinkedIn](https://www.linkedin.com/in/rex-devereux/)")
 
 # Sidebar footer
 st.sidebar.markdown("---")
