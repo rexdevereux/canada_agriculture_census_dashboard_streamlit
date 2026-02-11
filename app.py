@@ -203,7 +203,7 @@ def load_data():
     """Load agricultural statistics data."""
     try:
         # Load ADM2 agricultural data
-        adm2_path = Path("data/canada_adm2_agricultural_stats.gpkg")
+        adm2_path = Path("data/canada_adm2_agricultural_stats.geojson")
         if not adm2_path.exists():
             st.error(f"Data file not found at {adm2_path}")
             st.stop()
